@@ -41,12 +41,12 @@ export default function Home() {
           </a>
           </p>
         </div>
-          <div className="items-center justify-center gap-8 pt-10 pb-10 px-16 sm:px-32">
+    <div className="items-center justify-center gap-8 pt-10 pb-10 px-4 sm:px-16">
           <hr/>
           <p className="text-lg text-center mt-10 mb-5">
             Coursework:
           </p>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 pb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-10">
             <div className="text-lg text-center">
               <ul className="list-disc list-inside text-lg text-center">
             <li>
