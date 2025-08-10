@@ -2,102 +2,146 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+    <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-mono)]">
+      <div className="items-center justify-center gap-8">
+        <h1 className="text-4xl font-bold text-center font-[family-name:var(--font-gentium-plus)] mt-40">
+          Hailey Lin
+        </h1>
+        <p className="text-lg text-center">
+          hglin[at]mit[dot]edu
+        </p>
+      </div>
+  <div className="items-center justify-center gap-8 pt-20 pb-20 px-16 sm:px-32">
+        <p className="text-lg text-center">
+          Hi! My name is Hailey and I am studying{" "}
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="highlighted-text"
+            href="https://catalog.mit.edu/degree-charts/mathematics-course-18/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
+            Math (18)
+          </a>{" "}
+          and{" "}
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="highlighted-text"
+            href="https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            CS (6-3)
+          </a>{" "}
+          at {" "}
+          <a
+            className="highlighted-text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MIT.{" "}
           </a>
+          </p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          <div className="items-center justify-center gap-8 pt-10 pb-10 px-16 sm:px-32">
+          <hr/>
+          <p className="text-lg text-center mt-10 mb-5">
+            Coursework:
+          </p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 pb-10">
+            <div className="text-lg text-center">
+              <ul className="list-disc list-inside text-lg text-center">
+            <li>
+                6.1200 Mathematics for Computer Science
+            </li>
+            <li>
+                6.1210 Introduction to Algorithms
+            </li>
+            <li>
+                6.1010 Fundamentals of Programming
+            </li>
+          </ul>
+          <ul className="list-disc list-inside text-lg text-center">
+            <li>
+                6.3900 Introduction to Machine Learning
+            </li>
+            </ul>
+          </div>
+          <div className="text-lg text-center">
+            <ul className="list-disc list-inside text-lg text-center">
+              <li>
+                  18.022 Multivariable Calculus
+              </li>
+              <li>
+                  18.06 Linear Algebra
+              </li>
+              <li>
+                  18.600 Introduction to Probability and Statistics
+              </li>
+              <li>
+                  18.100B Real Analysis
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div className="items-center justify-center gap-8 pt-10 pb-10">
+          <p className="text-lg text-center">
+            Experience:
+          </p>
+          <div className="text-lg text-center">
+            <ul className="list-disc list-inside text-lg text-center">
+              <li>
+                <a
+                  className="highlighted-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Incoming Trading Intern @ Five Rings
+                </a>
+              </li>
+              <li>
+                <a
+                  className="highlighted-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Software Developer (STEP) Intern @ Google Cloud
+                </a>
+              </li>
+              <li>
+                <a
+                  className="highlighted-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Research Assistant @ MIT Media Lab's Camera Culture Group
+                </a>
+              </li>
+              <li>
+                <a
+                  className="highlighted-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Teaching Assistant @ LIVE by Po Shen Loh
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr/>
+        <div className="items-center justify-center gap-8 pt-10">
+          <p className="text-lg text-center">
+            Fun things:
+          </p>
+          <div className="text-lg text-center">
+            <ul className="list-disc list-inside text-lg text-center">
+              <a href="/projects" className="highlighted-text mr-6">Projects{" "}</a>
+              <a href="/thoughts" className="highlighted-text mr-6">Thoughts{" "}</a>
+              <a href="/contact" className="highlighted-text">Contact Me{" "}</a>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
