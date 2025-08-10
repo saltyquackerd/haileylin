@@ -37,7 +37,7 @@ export default function ContactPage() {
           </button>
         </form>
         <div className="mt-8 text-gray-600 text-center">
-          Or email me directly at <a href="mailto:hglin@mit.edu" className="text-blue-600 underline">hglin@mit.edu</a>
+          Or email me directly at <a href="mailto:hglin@mit.edu" className="text-blue-600 underline">hglin[at]mit[dot]edu</a>
         </div>
         <div className="text-lg text-center mt-10">
           <ul className="list-disc list-inside text-lg text-center">
