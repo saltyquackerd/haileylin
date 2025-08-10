@@ -42,7 +42,7 @@ export default function ProjectsPage() {
               <span className="highlighted-text inline-block">PicVenture</span>
             </a>
             <p>
-              This project focuses on developing a web application for connecting individuals through sharing photos based only daily photo challenges.
+              This project focuses on developing a web application for connecting individuals through sharing photos based on daily photo challenges.
             </p>
           </div>
         </div>
