@@ -7,37 +7,8 @@ export default function ContactPage() {
         <p className="text-lg mb-6 text-gray-700 text-center max-w-xl">
           I'd love to hear from you! Feel free to reach out using the form below or via email.
         </p>
-        <form className="w-full max-w-md bg-gray-50 p-8 rounded shadow-md flex flex-col gap-4">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            rows={5}
-            className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-            required
-          />
-          <button
-            type="submit"
-            className="bg-blue-600 text-white font-semibold py-2 px-6 rounded hover:bg-blue-700 transition-colors"
-          >
-            Send Message
-          </button>
-        </form>
         <div className="mt-8 text-gray-600 text-center">
-          Or email me directly at <a href="mailto:hglin@mit.edu" className="text-blue-600 underline">hglin[at]mit[dot]edu</a>
+          Email me at <a href="mailto:hglin@mit.edu" className="text-blue-600 underline">hglin[at]mit[dot]edu</a>
         </div>
         <div className="text-lg text-center mt-10">
           <ul className="list-disc list-inside text-lg text-center">
