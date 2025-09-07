@@ -7,6 +7,22 @@ export default function ProjectsPage() {
         </h1>
         </div>
         <hr />
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6 pb-6">
+          <a href="https://xenocrypts.vercel.app/" target="_blank" rel="noopener noreferrer" className="w-64 h-40 bg-gray-200 rounded-lg flex items-center justify-center shadow-md overflow-hidden group">
+            <img src="/interviewprep.png" alt="Project preview" className="w-full h-full object-cover rounded transition duration-300 group-hover:brightness-75" />
+          </a>
+          <div className="flex flex-col gap-2 max-w-xl justify-center">
+            <a className="text-lg font-semibold" href="https://github.com/saltyquackerd/interview_prep_app">
+              <span className="highlighted-text inline-block">InterviewPrep</span>
+            </a>
+            <p className="text-sm font-sans">
+              This project is a web app to help users gain confidence in speaking professionally in interviews and meetings by providing AI-generated feedback on their responses to common interview questions, with context-aware questions from their resumes using RAG. A speedrun of AI API calls!
+            </p>
+            <p className="text-sm italic font-sans">
+              Built with React/Next.js, Tailwind CSS, FastAPI, Whisper, Llama3, and ChromaDB.
+            </p>
+          </div>
+        </div>
   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6 pb-6">
           <a href="https://xenocrypts.vercel.app/" target="_blank" rel="noopener noreferrer" className="w-64 h-40 bg-gray-200 rounded-lg flex items-center justify-center shadow-md overflow-hidden group">
             <img src="/xenocrypts.png" alt="Project preview" className="w-full h-full object-cover rounded transition duration-300 group-hover:brightness-75" />
