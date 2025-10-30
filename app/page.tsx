@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-mono)]">
       <div className="items-center justify-center gap-8">
         <h1 className="text-4xl font-bold text-center font-[family-name:var(--font-gentium-plus)] mt-40">
-          Hailey Lin
+          <span className="float-animation">Hailey Lin</span>
         </h1>
         <p className="text-lg text-center">
           hglin[at]mit[dot]edu
@@ -63,22 +63,26 @@ export default function Home() {
             <li>
                 6.3900 Introduction to Machine Learning
             </li>
-            </ul>
-          </div>
-          <div className="text-lg text-center">
-            <ul className="list-disc list-inside text-lg text-center">
-              <li>
+            <li>
                   18.022 Multivariable Calculus
               </li>
               <li>
                   18.06 Linear Algebra
               </li>
+            </ul>
+          </div>
+          <div className="text-lg text-center">
+            <ul className="list-disc list-inside text-lg text-center">
               <li>
-                  18.600 Introduction to Probability and Statistics
+                  18.600 Probability and Random Variables
               </li>
               <li>
                   18.100B Real Analysis
               </li>
+              <li> 6.7960 (G) Deep Learning </li>
+              <li> 6.7900 (G) Machine Learning </li>
+              <li> 6.1220 Design and Analysis of Algorithms </li>
+              <li> 18.650 Statistics for Applications </li>
             </ul>
           </div>
         </div>
@@ -96,6 +100,15 @@ export default function Home() {
                   rel="noopener noreferrer"
                 >
                   Incoming Trading Intern @ Five Rings
+                </a>
+              </li>
+              <li>
+                <a
+                  className="highlighted-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Undergraduate Researcher @ MIT CSAIL / AeroAstro
                 </a>
               </li>
               <li>

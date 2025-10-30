@@ -16,7 +16,7 @@ export default function ProjectsPage() {
               <span className="highlighted-text inline-block">InterviewPrep</span>
             </a>
             <p className="text-sm font-sans">
-              This project is a web app to help users gain confidence in speaking professionally in interviews and meetings by providing AI-generated feedback on their responses to common interview questions, with context-aware questions from their resumes using RAG. A speedrun of AI API calls!
+              This project is a web app to help users gain confidence in speaking professionally in interviews and meetings by providing AI-generated feedback on their responses to common interview questions, with context-aware questions from their resumes. A speedrun of AI API calls!
             </p>
             <p className="text-sm italic font-sans">
               Built with React/Next.js, Tailwind CSS, FastAPI, Whisper, Llama3, and ChromaDB.
